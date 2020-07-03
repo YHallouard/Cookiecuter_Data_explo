@@ -3,25 +3,11 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-required = ['Sphinx',
-            'flake8',
-            'Flask',
-            'matplotlib',
-            'Keras',
-            'numpy<1.19.0',
-            'opencv-python',
+required = ['matplotlib',
+            'numpy',
             'pandas',
-            'Pillow',
-            'scikit-image',
-            'scikit-learn',
-            'tensorflow',
-            'tqdm',
-            'grpcio==1.27.2',
-            'imantics',
-            'shapely',
-            'tqdm',
-            'mlflow',
-            'geopandas']
+            'notebook'
+            ]
 
 __version__ = 'init'
 exec(open('src/version.py').read())
