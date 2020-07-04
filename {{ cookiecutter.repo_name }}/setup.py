@@ -10,7 +10,7 @@ required = ['matplotlib',
             ]
 
 __version__ = 'init'
-exec(open('src/version.py').read())
+exec(open('{{ cookiecutter.repo_name }}/version.py').read())
 
 setup(
     name='{{ cookiecutter.repo_name }}',

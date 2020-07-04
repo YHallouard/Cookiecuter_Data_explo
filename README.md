@@ -1,6 +1,6 @@
-# Cookiecutter Data Studio
+# Cookiecutter Data Exploration
 
-Project structure for Data Studio Exploration.
+Project structure for Data Exploration.
 
 ### Requirements to use the cookiecutter template:
 -----------
@@ -65,7 +65,7 @@ The directory structure of your new project looks like this:
 ### Installing development requirements
 ------------
 
-    python setup.py install
+    pip install -e .
 
 ### Running the tests
 ------------
