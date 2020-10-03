@@ -8,5 +8,8 @@ docs/site/
 tests/__pycache__/*
 *.pytest_cache/
 
-#MacOs files
+# MacOs files
 *.idea
+
+# Venv
+venv/*

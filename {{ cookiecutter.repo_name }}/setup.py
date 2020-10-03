@@ -1,12 +1,13 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 required = ['matplotlib',
             'numpy',
             'pandas',
-            'notebook'
+            'notebook',
+            'jupyter'
             ]
 
 __version__ = 'init'
@@ -16,7 +17,7 @@ setup(
     name='{{ cookiecutter.repo_name }}',
     packages=find_packages(),
     version=__version__,
-    description='{{ cookiecutter.description }}',
+    description="{{ cookiecutter.description }}",
     author='{{ cookiecutter.author_name }}',
     long_description=long_description,
     long_description_content_type="text/markdown",
