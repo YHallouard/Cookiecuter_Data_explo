@@ -68,3 +68,7 @@ The directory structure of your new project looks like this:
 ------------
 
     python setup.py test
+    
+# Contribute
+
+- [ ] Covering badge in pipeline
